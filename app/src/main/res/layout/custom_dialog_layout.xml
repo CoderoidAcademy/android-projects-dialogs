@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="12dp"
+    android:layout_gravity="center"
+    android:background="@drawable/custom_dialog_bg">
+    <ImageView
+        android:id="@+id/custom_dialog_exit"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/custom_dialog_exit_ic"
+        android:contentDescription="@string/app_name" />
+    <LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"
+	    android:layout_centerInParent="true"
+	    android:gravity="center" >
+	    
+	    <ImageView 
+	        android:layout_width="200dp"
+	        android:layout_height="156dp"
+	        android:src="@mipmap/ic_launcher"
+	        android:layout_marginTop="7sp"
+	        android:layout_marginBottom="5sp"/>
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="@android:color/white"
+	        android:text="Custom Dialog"
+	        android:textSize="30sp"/>
+	    <TextView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="@android:color/white"
+	        android:text="دیالوگ سفارشی"/>
+	    <TextView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="@android:color/white"
+	        android:text="Version 1.0"/>
+	    <ImageView
+	        android:layout_marginTop="15sp"
+	        android:layout_marginBottom="20sp" 
+	        android:layout_width="match_parent"
+	        android:layout_marginLeft="20dp"
+	        android:layout_marginRight="20dp"
+	        android:layout_height="2dp"
+	        android:src="@drawable/custom_dilaog_line"/>
+	    <TextView 
+	        android:id="@+id/ab_tv3"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="@android:color/white"
+	        android:text="Developed by"/>
+	    <TextView 
+	        android:id="@+id/ab_tv1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textSize="30sp"
+	        android:textColor="@android:color/white"
+	        android:gravity="center"
+	        android:layout_marginLeft="5sp"
+	        android:layout_marginRight="5sp"
+	        android:layout_marginBottom="20sp"
+			android:text="coderoid.ir"/>
+	    <TextView 
+	        android:id="@+id/ab_tv2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textSize="15sp"
+	        android:textColor="@android:color/white"
+	        android:layout_marginBottom="10sp"/>
+	    <TextView 
+	        android:id="@+id/ab_tv4"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="All rights reserved."
+	        android:layout_marginTop="3sp"
+	        android:textColor="@android:color/white"
+	        android:layout_marginBottom="8dp"/>
+	    
+	</LinearLayout>
+    
+</RelativeLayout>
